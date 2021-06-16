@@ -1,0 +1,17 @@
+Assertions
+-- Hard assertion
+    - if assertions found an error, our code is stuck there and will not allow execute the remaining code
+-- Soft assertion
+    - it allows us to execute our entire code and gives result of all the failures in the end of the execution
+
+-- We use assertAll() to collect all the failure at the end
+
+Enable and Disable
+
+method wise execution and configuration of testing.xml file
+class wise execution and configuration
+package wise execution and configuration
+
+create groups
+-- to divide the test cases
+-- total 500; 50 is smoke; 450 is regression

@@ -1,0 +1,5 @@
+@Test - we write every function with this annotation for execution in testing
+@BeforeMethod - we use this annotation for pre conditions which executes before every function
+@AfterMethod - we use this annotation for post conditions which executes after every function
+@BeforeClass - we use this annotation for the condition we want to execute in the beginning of the class
+@AfterClass - we use this annotation for the condition we want to execute in the end of the class

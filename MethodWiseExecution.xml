@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mariamosman/IdeaProjects/TestNG">
+        <classes>
+            <class name="com.class01.Demo1">
+                <methods>
+                    <include name="firstFuntion"/>
+                    <include name="secondFuntion"/>
+                    <include name="thirdFuntion"/>
+                    <include name="fourthFuntion"/>
+                </methods>
+            </class>
+            <class name="com.class01.LoginTest">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class01.PreAndPostCondition">
+                <methods>
+                    <include name="firstFunction"/>
+                    <include name="secondFunction"/>
+                </methods>
+            </class>
+            <class name="com.class01.Task1">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                </methods>
+            </class>
+            <class name="com.class02.Assertion">
+                <methods>
+                    <include name="assertVerification"/>
+                </methods>
+            </class>
+            <class name="com.class02.Demo1">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="invalidLogin"/>
+                </methods>
+            </class>
+            <class name="com.class02.DependsOnAttribute">
+                <methods>
+                    <include name="launchApplication"/>
+                    <include name="enterCredentials"/>
+                </methods>
+            </class>
+            <class name="com.class02.EnableAndDisable">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                    <include name="thirdMethod"/>
+                    <include name="invalidLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class02.EnableAndDisableDemo2">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class02.HardAssertion">
+                <methods>
+                    <include name="validLogin"/>
+                    <include name="validationOfTitle"/>
+                </methods>
+            </class>
+            <class name="com.class02.Hw">
+                <methods>
+                    <include name="addEmployee"/>
+                </methods>
+            </class>
+            <class name="com.class02.Priority">
+                <methods>
+                    <include name="firstMethod"/>
+                    <include name="secondMethod"/>
+                    <include name="thirdMethod"/>
+                </methods>
+            </class>
+            <class name="com.class02.SoftAssertion">
+                <methods>
+                    <include name="softAssertionValidation"/>
+                </methods>
+            </class>
+            <class name="com.class02.SoftAssertionDemo2">
+                <methods>
+                    <include name="loginAndValidateTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

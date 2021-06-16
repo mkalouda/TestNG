@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="All test cases">
+        <classes>
+            <class name="com.class01.Demo1"/>
+            <class name="com.class01.LoginTest"/>
+            <class name="com.class01.PreAndPostCondition"/>
+            <class name="com.class01.Task1"/>
+        </classes>
+    </test>
+</suite>
